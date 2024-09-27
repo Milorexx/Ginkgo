@@ -1,0 +1,108 @@
+/*GENERAL STYLES */
+
+/* add your font import line here */
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap');
+* {
+    box-sizing: border-box;
+    
+    
+}
+
+  
+/* add your font-family property to the body rule here. You will also add a background color and text color here. */
+body {
+    margin: 0 auto;
+    max-width: 8000px;
+    background-image: url("../img/barktexture.jpg");
+    font-family: 'Almendra Display';
+}
+
+/* TAG SELECTOR STYLES */
+/* Style your header and footer together here. You can add a background color, another font-family, another text color, a border, etc */
+header, 
+footer {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    margin: auto; 
+    text-align: center;
+    background-image: url(../img/wood.png);
+    padding: 100px;
+    color: rgb(0, 69, 0);
+    background-color: rgb(213, 213, 118);
+    border-radius: 50px;
+}
+h1{
+   font-family:'Almendra Display';
+   font-size: 100px;
+   font-weight:bolder;
+}
+/* Here you will style your <main> box holding all of your collection items. You can give it a background color. But most importantly, make the parent main selector a flebox, make it a row, make it wrap, and justify the content to space between*/
+main {
+   display: flex; 
+   flex-wrap: wrap;
+   justify-content:space-evenly;
+   align-items: center;
+   
+   
+   
+} 
+
+/* This rule provides 10px of padding around all sides of each image on your page */
+img {
+    width: 95%;
+     padding: 10px;
+}
+
+
+/* This rule styles the paragraphs that are describing each of your collection items. You can change the color, font-size, or font-family. */
+
+p {
+
+    font-size: 70pt;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(21, 64, 0);
+    background-color: rgb(194, 16, 52);
+}
+
+
+/* CLASSES & IDS */ 
+
+/* Give each <div> a unique id selector in the HTML document. Then, below, create a #id rule for each section. You can then give each a different background color, add text-align:center, add margin, border, etc. But most importantly, give each a width in percentages that equals about 1/3 of a row that is equal to 100%*/
+
+.one{
+width: 30%;
+transform: rotate(130deg);
+}
+.two{
+width: 30%;
+transform: rotate(180deg);
+}
+.three{
+width: 30%;
+transform: rotate(-90deg);
+}
+.four{
+    width: 35%;
+    transform: rotate(90deg);
+}
+.five{
+    width: 30%;
+    
+}
+.six{
+    width: 35%;
+    transform: rotate(-90deg);
+}
+.seven{
+    width: 30%;
+    transform: rotate(50deg);
+}
+.eight{
+    width: 30%;
+    
+}
+.nine{
+    width: 30%;
+    transform: rotate(-50deg);
+}
